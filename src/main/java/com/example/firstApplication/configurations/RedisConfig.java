@@ -1,4 +1,4 @@
-package com.example.firstApplication.RedisConfiguration;
+package com.example.firstApplication.configurations;
     import org.springframework.context.annotation.Bean;
 	import org.springframework.context.annotation.Configuration;
 	import org.springframework.data.redis.cache.RedisCacheConfiguration;

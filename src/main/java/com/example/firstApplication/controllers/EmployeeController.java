@@ -1,4 +1,4 @@
-package com.example.firstApplication.Controller;
+package com.example.firstApplication.controllers;
 
 import java.io.Console;
 import java.lang.System.Logger;
@@ -24,10 +24,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.firstApplication.Exception.ResourceNotFoundException;
-import com.example.firstApplication.Repository.EmployeeRepository;
-import com.example.firstApplication.Service.EmployeeService;
+import com.example.firstApplication.exception.ResourceNotFoundException;
 import com.example.firstApplication.model.Employee;
+import com.example.firstApplication.repos.EmployeeRepository;
+import com.example.firstApplication.services.EmployeeService;
 
 
 @RestController

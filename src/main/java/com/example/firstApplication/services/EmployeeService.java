@@ -1,4 +1,4 @@
-package com.example.firstApplication.Service;
+package com.example.firstApplication.services;
 
 import java.util.HashMap;
 import java.util.List;
@@ -22,9 +22,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.example.firstApplication.Exception.ResourceNotFoundException;
-import com.example.firstApplication.Repository.EmployeeRepository;
+import com.example.firstApplication.exception.ResourceNotFoundException;
 import com.example.firstApplication.model.Employee;
+import com.example.firstApplication.repos.EmployeeRepository;
 
 
 
